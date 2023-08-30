@@ -4,18 +4,17 @@ function LogoCard2() {
   return (
     <>
       <div className="bg-[#ff5e14] text-white">
-        <div className="">
-          <div className="grid grid-cols-2">
-            <div>
+          <div className="grid lg:grid-cols-2 lg:gap-0">
+            <div className="">
               <img
-                style={{ width: "-webkit-fill-available" }}
+                // style={{ width: "100%",height:"100%" }}
                 alt="img5"
-                className="cover"
+                className="w-full h-auto bg-contain"
                 src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693289689/about_video_ejpqwq.jpg"
               />
             </div>
-            <div className="flex">
-              <div className="max-w-2xl  m-auto ">
+            <div className="flex py-20 lg:py-0">
+              <div className="max-w-2xl mx-5 lg:m-auto ">
                 <div className="text-[37px] leading-[50px] font-bold ">
                   Flexible Pricing Policy & Decades Of Experience!
                 </div>
@@ -28,7 +27,7 @@ function LogoCard2() {
                   desire of constant improvement is the driving force behind our
                   transportation business.
                 </div>
-                <div className="flex justify-start gap-28">
+                <div className="flex justify-start flex-wrap gap-7 lg:gap-28">
                   <div>
                     <div className="text-[35px] font-bold text-white">
                       3,214m
@@ -68,7 +67,6 @@ function LogoCard2() {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 }

@@ -4,17 +4,17 @@ function AchievedCard() {
   return (
     <>
       <div className="bg-[#F9F9F9]">
-        <div className="">
-          <div className="grid grid-cols-2">
+        <div className="pt-20">
+          <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
             <div className="flex">
-              <div className="max-w-xl  m-auto ">
+              <div className="max-w-xl mx-5  lg:m-auto ">
                 <img
                   alt="img4"
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693286346/Tag_Icon_o83mea.png"
                   className="mb-7"
                 />
                 <div className="text-[14px] text-[#ff5e14] font-bold my-2">Affordable Price, Certified Forwarders</div>
-                <div className="text-[39px] leading-[52px] font-[700]">
+                <div className="text-[31px] md:text-[39px] leading-[40px] lg:leading-[52px] font-[700] my-5">
                   Safe, Reliable & Express Logistic Solutions That Saves Your
                   Time!
                 </div>

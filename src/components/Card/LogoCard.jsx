@@ -17,28 +17,24 @@ import LogoCard2 from "./LogoCard2";
 function LogoCard() {
   return (
     <>
-      <div className="container mx-auto py-10">
-        <div className="mx-40">
+      <div className="container mx-auto my-20">
+        <div className="mx-5 lg:mx-40">
           <Swiper
-            slidesPerView={6}
+            slidesPerView={1}
             spaceBetween={10}
-            pagination={{
-              clickable: true,
-            }}
+            // pagination={{
+            //   clickable: false,
+            // }}
             breakpoints={{
-              "@0.00": {
-                slidesPerView: 1,
-                spaceBetween: 10,
-              },
-              "@0.75": {
+              640: {
                 slidesPerView: 2,
                 spaceBetween: 20,
               },
-              "@1.00": {
-                slidesPerView: 3,
+              768: {
+                slidesPerView: 4,
                 spaceBetween: 40,
               },
-              "@1.50": {
+              1024: {
                 slidesPerView: 6,
                 spaceBetween: 50,
               },
@@ -46,12 +42,11 @@ function LogoCard() {
             modules={[Pagination]}
             className="mySwiper"
           >
-          
             <SwiperSlide>
-              <div>
+              <div className="">
                 <img
                   alt="logo1"
-                  className=" w-64 h-8 bg-contain bg-center cursor-pointer "
+                  className="bg-center cursor-pointer mx-auto bg-cover w-52"
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693289959/partner01_ittn1r.png"
                 />
               </div>
@@ -61,7 +56,7 @@ function LogoCard() {
               <div>
                 <img
                   alt="logo1"
-                  className=" w-64 h-8 bg-contain bg-center cursor-pointer "
+                  className="bg-center  cursor-pointer mx-auto bg-cover w-52"
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693289955/partner02_fcmqfa.png"
                 />
               </div>
@@ -71,34 +66,34 @@ function LogoCard() {
               <div>
                 <img
                   alt="logo1"
-                  className=" w-64 h-8 bg-contain bg-center cursor-pointer"
+                  className="-mt-3 cursor-pointer mx-auto bg-cover w-44 h-12"
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693289952/partner03_em7i8l.png"
                 />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div>
+              <div>
                 <img
                   alt="logo1"
-                  className=" w-64 h-8 bg-contain bg-center cursor-pointer"
+                  className=" cursor-pointer mx-auto bg-cover w-52"
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693289949/partner04_whkgyo.png"
                 />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div>
+              <div>
                 <img
                   alt="logo1"
-                  className=" w-64 h-8 bg-contain bg-center cursor-pointer"
+                  className=" cursor-pointer mx-auto bg-cover w-52"
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693289943/partner05_ncikxm.png"
                 />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div>
+              <div>
                 <img
                   alt="logo1"
-                  className=" w-64 h-8 bg-contain bg-center cursor-pointer"
+                  className=" cursor-pointer mx-auto bg-cover w-48"
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693289936/partner06_zucm1h.png"
                 />
               </div>
@@ -107,9 +102,7 @@ function LogoCard() {
         </div>
       </div>
 
-      <div>
-        <LogoCard2 />
-      </div>
+      <div><LogoCard2 /></div>
     </>
   );
 }

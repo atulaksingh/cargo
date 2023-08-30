@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .dj {
   display: inline-block;
   position: relative;
@@ -24,15 +23,21 @@
   left: 0;
 }
 
-
-
-
-.mySwiper .swiper-button-next{
+.mySwiper .swiper-button-next {
   color: #ff5e14;
 }
-.mySwiper .swiper-button-prev{
+.mySwiper .swiper-button-prev {
   color: #ff5e14;
 }
-.mySwiper .swiper-pagination-bullet{
+.mySwiper .swiper-pagination-bullet {
   background-color: #ff5e14;
+}
+
+@media screen and (max-width: 600px) {
+  .mySwiper .swiper-button-next {
+    display: none;
+  }
+  .mySwiper .swiper-button-prev {
+    display: none;
+  }
 }

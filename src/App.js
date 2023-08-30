@@ -14,8 +14,8 @@ function App() {
   return (
     <>
       <div>
-        <Header />
-        <Hero />
+        {/* <Header /> */}
+        {/* <Hero /> */}
         <HeroCard2 />
         <OurFeatures />
         <Testimonial />
@@ -23,7 +23,7 @@ function App() {
         <FeaturedCard />
         <AchievedCard />
         <MapCard />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

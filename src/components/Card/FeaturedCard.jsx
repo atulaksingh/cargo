@@ -4,7 +4,7 @@ function FeaturedCard() {
   return (
     <>
       <div className="container mx-auto">
-        <div className="px-40 py-20">
+        <div className="  xl:px-40 py-20">
           <div className="my-7 text-center">
             <div className="text-[#ff5e14] text-[14px] mb-5 font-bold">
               Latest Case Studies
@@ -12,12 +12,12 @@ function FeaturedCard() {
             <div className="text-[33px] leading-[1.625rem] font-bold mb-5">
               Featured Projects
             </div>
-            <div className="text-[16px] text-[#9b9b9b] leading-[1.625rem] w-[45%] mx-auto">
+            <div className="text-[16px] text-[#9b9b9b] leading-[1.625rem] md:w-[70%] lg:w-[45%] mx-auto">
               We continue to pursue that same vision in today's complex,
               uncertain world, working every day to earn our customers’ trust!
             </div>
           </div>
-          <div className="grid grid-cols-3 py-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 py-10">
             <div className="p-4">
               <div className="relative">
                 <img

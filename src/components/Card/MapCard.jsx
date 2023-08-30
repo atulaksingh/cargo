@@ -3,10 +3,11 @@ import React from "react";
 function MapCard() {
   return (
     <>
-      <div className="pt-10">
+      <div className="pt-10  ">
         <div>
           <iframe
             title="map"
+            className="h-80 lg:h-[750px]"
             width="100%vw"
             height="752"
             frameborder="0"
