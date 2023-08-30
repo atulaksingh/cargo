@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dj {
+  display: inline-block;
+  position: relative;
+}
+.dj:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #ff5e14;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.dj:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
+
+
+.mySwiper .swiper-button-next{
+  color: #ff5e14;
+}
+.mySwiper .swiper-button-prev{
+  color: #ff5e14;
+}
+.mySwiper .swiper-pagination-bullet{
+  background-color: #ff5e14;
+}
