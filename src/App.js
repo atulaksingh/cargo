@@ -14,16 +14,16 @@ function App() {
   return (
     <>
       <div>
-        {/* <Header /> */}
-        {/* <Hero /> */}
+        <Header />
+        <Hero />
         <HeroCard2 />
         <OurFeatures />
         <Testimonial />
         <LogoCard />
         <FeaturedCard />
         <AchievedCard />
-        <MapCard />
-        {/* <Footer /> */}
+        <MapCard /> 
+         <Footer />
       </div>
     </>
   );

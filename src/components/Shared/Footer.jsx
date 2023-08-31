@@ -7,32 +7,32 @@ function Footer() {
     <>
       <div className="bg-[#F9F9F9] ">
         <div className="container mx-auto">
-          <div className="mx-40 flex py-12 gap-16 align-middle items-center">
+          <div className="mx-5 xl:mx-40 flex flex-col lg:flex-row py-12 gap-5 xl:gap-16 lg:align-middle lg:items-center">
             <div>
               <h1 className="text-[17px] font-bold">Our Newsletter</h1>
               <p className="text-[14px] text-[#9b9b9b] leading-[1.625rem]">
                 Sign up for industry alerts, news & insights
               </p>
             </div>
-            <div className="flex align-middle ">
+            <div className="flex flex-col lg:flex-row align-middle gap-4 lg:gap-0">
               <input
-                className="appearance-none   w-60 bg-white text-gray-700 border hover:border-red-500 rounded py-3 px-3  leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none w-full   lg:w-60 bg-white text-gray-700 border hover:border-red-500 rounded py-3 px-3  leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Your Name"
               />
               <input
-                className="appearance-none  w-60 bg-white text-gray-700 border hover:border-red-500 rounded py-3  px-3 leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none w-full  lg:w-60 bg-white text-gray-700 border hover:border-red-500 rounded py-3  px-3 leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Email"
               />
               <input
                 type="submit"
-                className="appearance-none  w-40 bg-red-500 text-white border mx-4 hover:border-white rounded  px-4  leading-tight   cursor-pointer"
+                className="appearance-none  w-40 bg-red-500 text-white border py-3 lg:py-0 lg:mx-4 hover:border-white rounded  px-4  leading-tight   cursor-pointer"
               />
             </div>
-            <div className="flex align-middle items-center gap-5">
+            <div className="flex   align-middle items-center gap-5">
               <h1 className="border border-gray-500 py-3 px-3 cursor-pointer">
                 <BiLogoFacebook size={20} />
               </h1>
@@ -46,10 +46,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto">
-        <div className="px-40 py-20">
+      <div className="container lg:mx-auto">
+        <div className="px-5 xl:px-40 py-20">
           <div className="grid grid-cols-12 gap-5">
-            <div className=" col-span-4">
+            <div className="col-span-10 md:col-span-6 lg:col-span-4">
               <div>
                 <img
                   alt="footerimg"
@@ -80,7 +80,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className=" col-span-2">
+            <div className="col-span-12 lg:col-span-2">
               <div className="text-[15px] text-black font-bold">Who We Are</div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[15px] py-1">About Us</div>
@@ -97,7 +97,7 @@ function Footer() {
                 <div className="text-[#9b9b9b] text-[15px] py-1">Careers</div>
               </div>
             </div>
-            <div className=" col-span-2">
+            <div className="col-span-12 lg:col-span-2">
               <div className="text-[15px] text-black font-bold">Who We Are</div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[15px] py-1">
@@ -118,7 +118,7 @@ function Footer() {
                 <div className="text-[#9b9b9b] text-[15px] py-1">Packaging</div>
               </div>
             </div>
-            <div className=" col-span-2">
+            <div className="col-span-12 lg:col-span-2">
               <div className="text-[15px] text-black font-bold">Who We Are</div>
               <div className="my-4">
                 <div className="text-[#9b9b9b] text-[15px] py-1">
@@ -139,7 +139,7 @@ function Footer() {
                 <div className="text-[#9b9b9b] text-[15px] py-1">Oil & Gas</div>
               </div>
             </div>
-            <div className=" col-span-2">
+            <div className="col-span-12 lg:col-span-2">
               <div className="text-[15px] text-black font-bold">Who We Are</div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[15px] py-1">
@@ -163,7 +163,7 @@ function Footer() {
         </div>
       </div>
       <div className="border-t border-gray-300 py-8">
-        <div className="flex justify-between px-72">
+        <div className="flex flex-wrap justify-between px-5 lg:px-40 xl:px-72">
           <div className="text-[13px] text-[#9b9b9b]">
             ©2023 Optime, with Love by
             <a

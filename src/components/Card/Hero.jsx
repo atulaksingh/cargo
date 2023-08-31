@@ -51,6 +51,20 @@ function Hero() {
         }}
         modules={[EffectFade,Navigation, Pagination, History, Autoplay]}
         className="mySwiper"
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+        }}
       >
         {data.map((item, index) => (
           <SwiperSlide data-history="1">
