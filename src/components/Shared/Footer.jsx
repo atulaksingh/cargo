@@ -53,26 +53,26 @@ function Footer() {
               <div>
                 <img
                   alt="footerimg"
-                  height={40}
-                  width={40}
+                  height={45}
+                  width={45}
                   className=""
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693214874/footer_2x_k3ihf7.png"
                 />
                 <div className="my-4">
-                  <p className="text-[14px] leading-[24px] text-[#9b9b9b]">
+                  <p className="text-[16px] leading-[24px] text-[#9b9b9b]">
                     Our global logistics expertise, advanced supply chain
                     technology & customized logistics solutions will help you
                     develop and implement successful supply.
                   </p>
-                  <div className="text-[14px]">
-                    <span className="text-[14px] leading-[24px] text-[#9b9b9b]">
+                  <div className="text-[16px]">
+                    <span className="text-[16px] leading-[24px] text-[#9b9b9b]">
                       Email:
                     </span>{" "}
                     Optime@contact.com
                   </div>
-                  <div className="text-[14px]">
+                  <div className="text-[16px]">
                     {" "}
-                    <span className="text-[14px] leading-[24px] text-[#9b9b9b]">
+                    <span className="text-[16px] leading-[24px] text-[#9b9b9b]">
                       Phone:
                     </span>{" "}
                     +010612457410
@@ -81,80 +81,80 @@ function Footer() {
               </div>
             </div>
             <div className="col-span-12 lg:col-span-2">
-              <div className="text-[15px] text-black font-bold">Who We Are</div>
+              <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-5">
-                <div className="text-[#9b9b9b] text-[15px] py-1">About Us</div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">About Us</div>
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Meet Our Team
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   New & Media
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Case Studies
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">Contacts</div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">Careers</div>
+                <div className="text-[#9b9b9b] text-[16px] py-1">Contacts</div>
+                <div className="text-[#9b9b9b] text-[16px] py-1">Careers</div>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-2">
-              <div className="text-[15px] text-black font-bold">Who We Are</div>
+              <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-5">
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Warehousing
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Air Freight
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Ocean Freight
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Road Freight
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Supply Chain
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">Packaging</div>
+                <div className="text-[#9b9b9b] text-[16px] py-1">Packaging</div>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-2">
-              <div className="text-[15px] text-black font-bold">Who We Are</div>
+              <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-4">
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Retail & Consumer
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Sciences & Healthcare
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Industrial & Chemical
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Power Generation
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Food & Beverage
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">Oil & Gas</div>
+                <div className="text-[#9b9b9b] text-[16px] py-1">Oil & Gas</div>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-2">
-              <div className="text-[15px] text-black font-bold">Who We Are</div>
+              <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-5">
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Request A Quote
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Track & Trace
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Find A Location
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Global Agents
                 </div>
-                <div className="text-[#9b9b9b] text-[15px] py-1">
+                <div className="text-[#9b9b9b] text-[16px] py-1">
                   Help & FAQs
                 </div>
               </div>
