@@ -1,20 +1,20 @@
-import { Avatar, Button, DarkThemeToggle, Dropdown, Navbar } from "flowbite-react";
+import {
+  Avatar,
+  Button,
+  DarkThemeToggle,
+  Dropdown,
+  Navbar,
+} from "flowbite-react";
 import React from "react";
 import { useState } from "react";
-const customTheme: CustomFlowbiteTheme = {
-  button: {
-    color: {
-      primary: 'bg-red-500 hover:bg-red-600',
-    },
-  },
-};
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
-      <div className="container mx-auto">
-        {/* <div className="mx-5 lg:mx-40 flex justify-between py-4">
+      <div className="bg-white">
+        <div className="container mx-auto">
+          {/* <div className="mx-5 lg:mx-40 flex justify-between py-4">
           <div>
             <img alt="logoimg"  className="h-10 cursor-pointer" src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693279936/logo-dark_cisoso.png" />
           </div>
@@ -27,46 +27,44 @@ function Header() {
           </div>
           </div>
         </div> */}
-        <Navbar
-          className=""
-          theme={{ theme: customTheme }}
-        >
-          <Navbar.Brand>
-            <img
-              alt="logoimg"
-              className="h-10 cursor-pointer"
-              src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693279936/logo-dark_cisoso.png"
-            />
-          </Navbar.Brand>
-          <div className="flex md:order-2 rounded-full">
-            <Button
-              // color={"dark  "}
-              className="md:block hidden rounded-full bg-[#ff5e14]"
-            >
-              Sign In
-            </Button>
+          <Navbar className="">
+            <Navbar.Brand>
+              <img
+                alt="logoimg"
+                className="h-10 cursor-pointer"
+                src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693279936/logo-dark_cisoso.png"
+              />
+            </Navbar.Brand>
+            <div className="flex md:order-2 rounded-full">
+              <Button
+                // color={"dark  "}
+                className="md:block hidden rounded-full bg-[#ff5e14]"
+              >
+                Sign In
+              </Button>
 
-            <Navbar.Toggle />
-          </div>
-          <Navbar.Collapse className=" w-full h-[320px] md:h-full mx-auto">
-            <Navbar className="font-bold text-base mx-auto py-5 hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
-              Home
-            </Navbar>
-            <Navbar className="font-bold text-base mx-auto py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
-              About
-            </Navbar>
-            <Navbar className="font-bold text-base mx-auto py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
-              Services
-            </Navbar>
+              <Navbar.Toggle />
+            </div>
+            <Navbar.Collapse className=" w-full h-[320px] md:h-full mx-auto">
+              <Navbar className="font-bold text-base mx-auto py-5 hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
+                Home
+              </Navbar>
+              <Navbar className="font-bold text-base mx-auto py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
+                About
+              </Navbar>
+              <Navbar className="font-bold text-base mx-auto py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
+                Services
+              </Navbar>
 
-            <Button
-              className="md:hidden block mx-auto my-5 rounded-full "
-              // color="dark"
-            >
-              Sign In
-            </Button>
-          </Navbar.Collapse>
-        </Navbar>
+              <Button
+                className="md:hidden block mx-auto my-5 rounded-full "
+                // color="dark"
+              >
+                Sign In
+              </Button>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
       </div>
     </>
   );
