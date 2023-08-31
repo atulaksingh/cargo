@@ -30,12 +30,13 @@ function Header() {
             <div className="flex md:order-2 rounded-full bg-white">
               <Button
                 // color={"dark  "}
+                
                 className="md:block hidden rounded-full bg-[#ff5e14]"
               >
                 Contact Us
               </Button>
               <div className="dark:bg-white">
-                <Navbar.Toggle color="red" className="dark:bg-white" />
+                <Navbar.Toggle color={"light"}  className="dark:bg-white" />
               </div>
             </div>
             <Navbar.Collapse className=" w-full mt-2 h-[320px] md:h-full mx-auto dark:bg-white">

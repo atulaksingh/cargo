@@ -27,10 +27,10 @@ function HeroCard(props) {
                   </div>
                   <div className="flex gap-4 sm:gap-10 my-8">
                     <div className="bg-[#ff5e14] text-white py-3.5 rounded-md font-bold text-sm px-8 sm:px-12 w-fit hover:text-[#ff5e14] hover:bg-white cursor-pointer transition-all delay-100">
-                      Our Serves
+                      Our  services
                     </div>
                     <div className="bg-white text-[#ff5e14] py-3.5 rounded-md font-bold text-sm px-8 sm:px-12 w-fit hover:text-white hover:bg-[#ff5e14] cursor-pointer transition-all delay-100">
-                      Our Serves
+                      Our  services
                     </div>
                   </div>
                 </div>
