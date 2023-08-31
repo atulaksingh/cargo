@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
       <div className="bg-white">
-        <div className="container mx-auto">
+        <div className="container mx-auto bg-white">
           {/* <div className="mx-5 lg:mx-40 flex justify-between py-4">
           <div>
             <img alt="logoimg"  className="h-10 cursor-pointer" src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693279936/logo-dark_cisoso.png" />
@@ -27,7 +27,7 @@ function Header() {
           </div>
           </div>
         </div> */}
-          <Navbar className="">
+          <Navbar className="bg-white">
             <Navbar.Brand>
               <img
                 alt="logoimg"
@@ -35,7 +35,7 @@ function Header() {
                 src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693279936/logo-dark_cisoso.png"
               />
             </Navbar.Brand>
-            <div className="flex md:order-2 rounded-full">
+            <div className="flex md:order-2 rounded-full bg-white">
               <Button
                 // color={"dark  "}
                 className="md:block hidden rounded-full bg-[#ff5e14]"
@@ -45,7 +45,7 @@ function Header() {
 
               <Navbar.Toggle />
             </div>
-            <Navbar.Collapse className=" w-full h-[320px] md:h-full mx-auto">
+            <Navbar.Collapse className=" w-full h-[320px] md:h-full mx-auto bg-white">
               <Navbar className="font-bold text-base mx-auto py-5 hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
                 Home
               </Navbar>
