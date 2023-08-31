@@ -37,7 +37,7 @@ function Header() {
               </Button>
               <div >
               {/* <Navbar.Toggle color={"light"}  className="dark:bg-white" /> */}
-              <Navbar.Toggle />
+              <Navbar.Toggle style={{backgroundColor:'white'}}/>
               </div>
             </div>
             <Navbar.Collapse className=" w-full mt-2 h-[320px] md:h-full mx-auto dark:bg-white">
