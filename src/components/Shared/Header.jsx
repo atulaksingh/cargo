@@ -35,7 +35,7 @@ function Header() {
                 Contact Us
               </Button>
               <div className="dark:bg-white">
-                <Navbar.Toggle col or="light" />
+                <Navbar.Toggle color="light" />
               </div>
             </div>
             <Navbar.Collapse className=" w-full mt-2 h-[320px] md:h-full mx-auto dark:bg-white">
