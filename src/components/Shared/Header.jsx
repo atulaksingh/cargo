@@ -1,15 +1,7 @@
-import {
-  Avatar,
-  Button,
-  DarkThemeToggle,
-  Dropdown,
-  Navbar,
-} from "flowbite-react";
+import { Button, Navbar } from "flowbite-react";
 import React from "react";
-import { useState } from "react";
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
       <div className="bg-white">
@@ -42,8 +34,9 @@ function Header() {
               >
                 Contact Us
               </Button>
-
-              <Navbar.Toggle color="light" />
+              <div className="dark:bg-white">
+                <Navbar.Toggle col or="light" />
+              </div>
             </div>
             <Navbar.Collapse className=" w-full mt-2 h-[320px] md:h-full mx-auto dark:bg-white">
               <Navbar className="font-bold text-base mx-auto py-5 dark:bg-white hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
@@ -60,7 +53,7 @@ function Header() {
                 className="md:hidden block mx-auto my-5 rounded-full bg-[#ff5e14] text-white "
                 color=""
               >
-               Contact Us
+                Contact Us
               </Button>
             </Navbar.Collapse>
           </Navbar>
