@@ -39,7 +39,7 @@ function Header() {
 
             <Navbar.Toggle />
           </div>
-          <Navbar.Collapse className=" w-full h-[320px] md:h-full mx-auto">
+          <Navbar.Collapse className=" w-full h-[320px] md:h-full mx-auto bg-white">
             <Navbar className="font-bold text-base mx-auto py-5 hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
               Home
             </Navbar>
