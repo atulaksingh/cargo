@@ -80,7 +80,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 lg:col-span-2">
+            <div className="col-span-6 lg:col-span-2">
               <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[16px] py-1">About Us</div>
@@ -97,7 +97,7 @@ function Footer() {
                 <div className="text-[#9b9b9b] text-[16px] py-1">Careers</div>
               </div>
             </div>
-            <div className="col-span-12 lg:col-span-2">
+            <div className="col-span-6 lg:col-span-2">
               <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[16px] py-1">
@@ -118,7 +118,7 @@ function Footer() {
                 <div className="text-[#9b9b9b] text-[16px] py-1">Packaging</div>
               </div>
             </div>
-            <div className="col-span-12 lg:col-span-2">
+            <div className="col-span-6 lg:col-span-2">
               <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-4">
                 <div className="text-[#9b9b9b] text-[16px] py-1">
@@ -139,7 +139,7 @@ function Footer() {
                 <div className="text-[#9b9b9b] text-[16px] py-1">Oil & Gas</div>
               </div>
             </div>
-            <div className="col-span-12 lg:col-span-2">
+            <div className="col-span-6 lg:col-span-2">
               <div className="text-[17px] text-black font-bold">Who We Are</div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[16px] py-1">
