@@ -11,8 +11,8 @@ function HeroCard(props) {
         <img
           src={props.img}
           alt="img"
-          // className="h-[38rem] sm:h-[42.2rem]  xl:h-[56.8999rem] w-full object-cover object-center"
-          className="h-screen w-full object-cover object-center"
+          className="h-[38rem] sm:h-[42.2rem] lg:h-[50rem]  xl:h-[56.8999rem] w-full object-cover object-center"
+          // className="h-screen w-full object-cover object-center"
         ></img>
         <div>
         {/* <div className=" absolute bg-red-500 bg-blend-saturation"></div> */}
