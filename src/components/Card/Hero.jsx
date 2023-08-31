@@ -26,7 +26,7 @@ const data = [
   },
   {
     img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1693305861/cj8oqm9jg00jkkvqp97qtfp0s-transportation-air-banner.0.438.4256.2394.max__sprw28.jpg",
-    t1: " Affordable Price & innovative Solution.",
+    t1: " Affordable Price & Solution.",
     t2: " Through integrated supply chain  Solution our drives sustainable competitive advantages to some of the largest companies allover the world",
   },
 ];
