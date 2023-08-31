@@ -20,7 +20,7 @@ function Header() {
           </div>
           </div>
         </div> */}
-        <Navbar className="bg-white">
+        <Navbar className="">
           <Navbar.Brand>
             <img
               alt="logoimg"
@@ -29,12 +29,11 @@ function Header() {
             />
           </Navbar.Brand>
           <div className="flex md:order-2 rounded-full">
-            {/* <Navbar className="md:block font-bold hidden">Sign IN</Navbar> */}
             <Button
-              color={"dark  "}
+              // color={"dark  "}
               className="md:block hidden rounded-full bg-[#ff5e14]"
             >
-             Sign In
+              Sign In
             </Button>
 
             <Navbar.Toggle />
@@ -49,12 +48,13 @@ function Header() {
             <Navbar className="font-bold text-base mx-auto py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
               Services
             </Navbar>
-            {/* <Navbar className="md:hidden block  font-bold mx-auto text-base py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
+
+            <Button
+              className="md:hidden block mx-auto my-5 rounded-full "
+              // color="dark"
+            >
               Sign In
-            </Navbar> */}
-            <Button className="md:hidden block mx-auto my-5 rounded-full " color={"dark"}>
-            Sign In
-          </Button>
+            </Button>
           </Navbar.Collapse>
         </Navbar>
       </div>
