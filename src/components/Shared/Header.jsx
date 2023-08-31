@@ -43,7 +43,7 @@ function Header() {
                 Contact Us
               </Button>
 
-              <Navbar.Toggle className="dark:bg-white  " />
+              <Navbar.Toggle  />
             </div>
             <Navbar.Collapse className=" w-full mt-2 h-[320px] md:h-full mx-auto dark:bg-white">
               <Navbar className="font-bold text-base mx-auto py-5 dark:bg-white hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
