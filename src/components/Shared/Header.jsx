@@ -46,13 +46,13 @@ function Header() {
               <Navbar.Toggle />
             </div>
             <Navbar.Collapse className=" w-full h-[320px] md:h-full mx-auto dark:bg-white">
-              <Navbar className="font-bold text-base mx-auto py-5 hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
+              <Navbar className="font-bold text-base mx-auto py-5 dark:bg-white hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
                 Home
               </Navbar>
-              <Navbar className="font-bold text-base mx-auto py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
+              <Navbar className="font-bold text-base mx-auto py-5 dark:bg-white  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
                 About
               </Navbar>
-              <Navbar className="font-bold text-base mx-auto py-5  hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
+              <Navbar className="font-bold text-base mx-auto py-5   hover:text-[#ff5e14] transition-all delay-75 ease-in-out cursor-pointer">
                 Services
               </Navbar>
 
