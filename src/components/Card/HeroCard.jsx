@@ -11,7 +11,7 @@ function HeroCard(props) {
         <img
           src={props.img}
           alt="img"
-          className="h-[38rem] sm:h-[42.2rem]  2xl:h-[56.8999rem] w-full object-cover object-center"
+          className="h-[38rem] sm:h-[42.2rem] lg:h-[38rem]  2xl:h-[56.8999rem] w-full object-cover object-center"
           // className="h-[28rem] lg:h-[30.2rem]  xl:h-[56.8999rem] w-full object-cover object-center"
         ></img>
         <div>
@@ -20,7 +20,7 @@ function HeroCard(props) {
             <div className="container mx-auto">
               <div className="grid grid-cols-12">
                 <div className="col-span-12 lg:col-span-9 2xl:col-span-7">
-                  <div className="text-white text-4xl sm:text-7xl lg:text-[80px] font-bold leading-[38px] sm:leading-[75px] lg:leading-[85px] py-7">
+                  <div className="text-white text-4xl sm:text-7xl lg:text-[70px] font-bold leading-[38px] sm:leading-[75px] lg:leading-[75px] py-7">
                     {props.tt1}
                   </div>
                   <div className="text-white text-sm sm:text-lg font-medium w-fit">
