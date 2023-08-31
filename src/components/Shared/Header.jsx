@@ -1,6 +1,13 @@
-import { Avatar, Button, Dropdown, Navbar } from "flowbite-react";
+import { Avatar, Button, DarkThemeToggle, Dropdown, Navbar } from "flowbite-react";
 import React from "react";
 import { useState } from "react";
+const customTheme: CustomFlowbiteTheme = {
+  button: {
+    color: {
+      primary: 'bg-red-500 hover:bg-red-600',
+    },
+  },
+};
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,9 +29,7 @@ function Header() {
         </div> */}
         <Navbar
           className=""
-          theme={{
-            dark: false,
-          }}
+          theme={{ theme: customTheme }}
         >
           <Navbar.Brand>
             <img
