@@ -15,11 +15,10 @@ function HeroCard(props) {
           // className="h-[28rem] lg:h-[30.2rem]  xl:h-[56.8999rem] w-full object-cover object-center"
         ></img>
         <div>
-        {/* <div className=" absolute bg-red-500 bg-blend-saturation"></div> */}
-          <div className="absolute top-60 sm:top-28 lg:top-40 2xl:top-80 mx-5 md:mx-28 lg:mx-40 xl:mx-60  2xl:mx-72">
+          <div className="absolute top-60 sm:top-28 lg:top-40 2xl:top-80 mx-5 md:mx-28 lg:mx-40 xl:mx-64  2xl:mx-72">
             <div className="container mx-auto">
               <div className="grid grid-cols-12">
-                <div className="col-span-12 lg:col-span-9 2xl:col-span-7">
+                <div className="col-span-12 lg:col-span-10 2xl:col-span-7">
                   <div className="text-white text-4xl sm:text-7xl lg:text-[70px] font-bold leading-[38px] sm:leading-[75px] lg:leading-[75px] py-7">
                     {props.tt1}
                   </div>
