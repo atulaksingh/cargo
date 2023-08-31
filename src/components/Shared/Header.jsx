@@ -20,7 +20,12 @@ function Header() {
           </div>
           </div>
         </div> */}
-        <Navbar className="">
+        <Navbar
+          className=""
+          theme={{
+            dark: false,
+          }}
+        >
           <Navbar.Brand>
             <img
               alt="logoimg"
