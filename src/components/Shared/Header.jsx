@@ -27,7 +27,7 @@ function Header() {
           </div>
           </div>
         </div> */}
-          <Navbar className="dark:bg-red-300-800 " fluid={true} rounded={true}>
+          <Navbar className="" fluid={true} rounded={true}>
             <Navbar.Brand>
               <img
                 alt="logoimg"
