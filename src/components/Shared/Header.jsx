@@ -27,7 +27,7 @@ function Header() {
           </div>
           </div>
         </div> */}
-          <Navbar className="bg-white">
+          <Navbar className="bg-white" fluid={true} rounded={true}>
             <Navbar.Brand>
               <img
                 alt="logoimg"
@@ -57,10 +57,10 @@ function Header() {
               </Navbar>
 
               <Button
-                className="md:hidden block mx-auto my-5 rounded-full "
-                // color="dark"
+                className="md:hidden block mx-auto my-5 rounded-full bg-[#ff5e14] text-white "
+                color=""
               >
-                Sign In
+               Contact Us
               </Button>
             </Navbar.Collapse>
           </Navbar>

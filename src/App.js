@@ -14,7 +14,9 @@ function App() {
   return (
     <>
       <div>
+      <div className="bg-white">
         <Header />
+        </div>
         <Hero />
         <HeroCard2 />
         <OurFeatures />
