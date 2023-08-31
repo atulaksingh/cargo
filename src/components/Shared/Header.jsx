@@ -29,7 +29,7 @@ function Header() {
             </Navbar.Brand>
             <div className="flex md:order-2 rounded-full bg-white">
               <Button
-                // color={"dark  "}
+                color={"light"}
                 
                 className="md:block hidden rounded-full bg-[#ff5e14]"
               >
