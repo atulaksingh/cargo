@@ -1,6 +1,6 @@
 import React from "react";
 
-function OurFeaturesCard() {
+function OurFeaturesCard(props) {
   return (
     <>
       <div>
@@ -8,13 +8,16 @@ function OurFeaturesCard() {
           <img
             alt="img2"
             className=" my-5"
-            src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693208082/Wallet-Icon_1_wefnzz.png"
+            src={props.img}
           />
           <div className="text-[17px] font-semibold pt-1 pb-3">
-            Transparent Pricing{" "}
+           
+         
+        
+         {props.t1}                                                                           
           </div>
           <div className="text-[14px] leading-[24px] text-[#9b9b9b]">
-            International supply chains involves challenging regulations.
+        {props.t2}
           </div>
         </div>
       </div>

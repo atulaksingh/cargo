@@ -68,14 +68,14 @@ function Footer() {
                     <span className="text-[16px] leading-[24px] text-[#9b9b9b]">
                       Email:
                     </span>{" "}
-                    Optime@contact.com
+                    info@cosmicaviation.in
                   </div>
                   <div className="text-[16px]">
                     {" "}
                     <span className="text-[16px] leading-[24px] text-[#9b9b9b]">
                       Phone:
                     </span>{" "}
-                    +010612457410
+                    +919756342747
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-span-6 lg:col-span-2">
-              <div className="text-[17px] text-black font-bold">Who We Are</div>
+              <div className="text-[17px] text-black font-bold">What We Do</div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[16px] py-1">
                   Warehousing
@@ -119,7 +119,9 @@ function Footer() {
               </div>
             </div>
             <div className="col-span-6 lg:col-span-2">
-              <div className="text-[17px] text-black font-bold">Who We Are</div>
+              <div className="text-[17px] text-black font-bold">
+                Who We Serve
+              </div>
               <div className="my-4">
                 <div className="text-[#9b9b9b] text-[16px] py-1">
                   Retail & Consumer
@@ -140,7 +142,9 @@ function Footer() {
               </div>
             </div>
             <div className="col-span-6 lg:col-span-2">
-              <div className="text-[17px] text-black font-bold">Who We Are</div>
+              <div className="text-[17px] text-black font-bold">
+                Quick Links
+              </div>
               <div className="my-5">
                 <div className="text-[#9b9b9b] text-[16px] py-1">
                   Request A Quote

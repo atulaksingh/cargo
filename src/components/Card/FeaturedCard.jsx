@@ -35,9 +35,8 @@ function FeaturedCard() {
                   Lane Pairing Analysis
                 </div>
                 <div className="text-[15px] leading-[25px] text-[#9b9b9b] my-3">
-                  We can arrange and provides with the comprehensive service in
-                  the sphere of urgent, valuable, fragile or any cargoes
-                  conscientious accelerated delivery by air.
+                 
+                We understand that data is the greatest asset when it comes to analyzing and optimizing your supply chain performance.                        
                 </div>
                 <div className="dj text-[#121c45]  text-left  text-[14px] font-bold cursor-pointer bg-transparent my-2">
                   ReadMore
@@ -52,18 +51,17 @@ function FeaturedCard() {
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693211589/case5-600x585_lo45b1.jpg"
                 />
                 <div className="bg-[#ff5e14] text-white absolute bottom-0 left-6 py-0.5 px-2 w-fit ">
-                  Analystics, optimization
+                Distribution, Warehousing
                 </div>
               </div>
 
               <div style={{marginTop:"13px",marginLeft:"20px",Right:"20px"}} className=" ">
                 <div className="text-[20px] font-semibold leading-[28px] mb-2 hover:text-[#cf2e2e] transition-all delay-75 cursor-pointer">
-                  Lane Pairing Analysis
+                Warehouse On-Hand Inventory
                 </div>
                 <div className="text-[15px] leading-[25px] text-[#9b9b9b] my-3">
-                  We can arrange and provides with the comprehensive service in
-                  the sphere of urgent, valuable, fragile or any cargoes
-                  conscientious accelerated delivery by air.
+                 
+                Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an extensive consolidation schedule.                        
                 </div>
                 <div className="dj text-[#121c45]  text-left  text-[14px] font-bold cursor-pointer bg-transparent my-2">
                   ReadMore
@@ -78,18 +76,17 @@ function FeaturedCard() {
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693211589/case5-600x585_lo45b1.jpg"
                 />
                 <div className="bg-[#ff5e14] text-white absolute bottom-0 left-6 py-0.5 px-2 w-fit ">
-                  Analystics, optimization
+                Analystics, Logistics
                 </div>
               </div>
 
               <div style={{marginTop:"13px",marginLeft:"20px",Right:"20px"}} className=" ">
                 <div className="text-[20px] font-semibold leading-[28px] mb-2 hover:text-[#cf2e2e] transition-all delay-75 cursor-pointer">
-                  Lane Pairing Analysis
+                Minimize Cost of Manufacturing
                 </div>
                 <div className="text-[15px] leading-[25px] text-[#9b9b9b] my-3">
-                  We can arrange and provides with the comprehensive service in
-                  the sphere of urgent, valuable, fragile or any cargoes
-                  conscientious accelerated delivery by air.
+                 
+                Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an extensive consolidation schedule.                        
                 </div>
                 <div className="dj text-[#121c45]  text-left  text-[14px] font-bold cursor-pointer bg-transparent my-2">
                   ReadMore

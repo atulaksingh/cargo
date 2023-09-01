@@ -15,8 +15,20 @@ function MapCard() {
             marginheight="0"
             marginwidth="0"
             id="gmap_canvas"
-            src="https://maps.google.com/maps?width=958&amp;height=352&amp;hl=en&amp;q=Santacruz%20East%20Mumbai%20Maharashtra+(panache%20media)&amp;t=h&amp;z=8&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=5/2%20Dimma%20Swamy%20Dargah%20Street,%20Jawahar%20Nagar,%20Chennai+(Cosmic%20Aviation%20Private%20Limited)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
+          {/* <a href="https://maps-generator.com/">Maps Generator</a> */}
+
+          {/* <iframe
+            width="520"
+            height="400"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=5/2%20Dimma%20Swamy%20Dargah%20Street,%20Jawahar%20Nagar,%20Chennai+(Cosmic%20Aviation%20Private%20Limited)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe> */}
           {/* <a href="https://maps-generator.com/">Maps Generator</a> */}
         </div>
       </div>

@@ -21,11 +21,14 @@ function Header() {
         </div> */}
           <Navbar className="dark:bg-white " fluid={true} rounded={true}>
             <Navbar.Brand className="dark:bg-white  ">
+            <div className="flex align-middle items-center gap-1">
               <img
                 alt="logoimg"
                 className="h-10 cursor-pointer"
-                src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693279936/logo-dark_cisoso.png"
+                src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693214874/footer_2x_k3ihf7.png"
               />
+              <div className="font-bold text-2xl"> Cosmic Aviation </div>
+              </div>
             </Navbar.Brand>
             <div className="flex md:order-2 rounded-full bg-white">
               <Button

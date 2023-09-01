@@ -17,17 +17,17 @@ const data = [
   {
     img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1693218373/shutterstock_638769595_blqcef.jpg",
     t1: "Leading the way in Global Logistics",
-    t2: "through integrated supply chain solution,our drive substainable competitive advantages to some of the largest companies allover the world",
+    t2: "through integrated supply chain solution, we provide substainable competitive advantages to some of the largest companies all over the world",
   },
   {
     img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1693218375/shutterstock_757396009_atqymr.jpg",
-    t1: " Fast,Certified & Flexible Solution.",
-    t2: " I put souvenir as an alt but you can choose any others wordsbut you can choose any others words that describe well your image",
+    t1: " Fast, Certified & Flexible Solution.",
+    t2: " Our on-time services helps us to provide quick solutions to our customers",
   },
   {
     img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1693305861/cj8oqm9jg00jkkvqp97qtfp0s-transportation-air-banner.0.438.4256.2394.max__sprw28.jpg",
     t1: " Affordable Price & Solution.",
-    t2: " Through integrated supply chain  Solution our drives sustainable competitive advantages to some of the largest companies allover the world",
+    t2: " Staying ahead of the competition with our global affordable pricing",
   },
 ];
 
@@ -42,10 +42,10 @@ function Hero() {
         effect={'fade'}
         navigation={true}
         pagination={false}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 3500,
+        //   disableOnInteraction: false,
+        // }}
         history={{
           key: "slide",
         }}

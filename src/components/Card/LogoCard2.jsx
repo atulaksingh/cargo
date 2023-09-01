@@ -29,7 +29,7 @@ function LogoCard2() {
                 <div className="flex justify-start flex-col  lg:flex-row gap-7 lg:gap-14 2xl:gap-28">
                   <div>
                     <div className="text-[35px] font-bold text-white">
-                      3,214m
+                      3,351m
                     </div>
                     <div className="text-[14px] font-bold">
                       Clients Worldwide
@@ -37,18 +37,18 @@ function LogoCard2() {
                   </div>
                   <div>
                     <div className="text-[35px] font-bold text-white">
-                      3,214m
+                      5,254m
                     </div>
                     <div className="text-[14px] font-bold">
-                      Clients Worldwide
+                      Delivered Goods
                     </div>
                   </div>
                   <div>
                     <div className="text-[35px] font-bold text-white">
-                      3,214m
+                      7,525m
                     </div>
                     <div className="text-[14px] font-bold">
-                      Clients Worldwide
+                      Miles Driven
                     </div>
                   </div>
                 </div>

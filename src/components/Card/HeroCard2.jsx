@@ -5,7 +5,7 @@ function HeroCard2() {
     <>
       <div>
         <div className="container mx-auto">
-          <div className="  xl:px-40 py-40">
+          <div className="  xl:px-40 py-28">
             <div className="grid tab:grid-cols-2">
               <div className="p-3">
                 <div className="text-[#ff5e14] text-[14px] font-bold">
@@ -48,15 +48,15 @@ function HeroCard2() {
                 <img
                   alt="im1"
                   className="mx-auto py-8"
-                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693204787/Airplane-Icon_bokmfe.png"
+                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693562676/Ship-Icon_qcdfov.png"
                 />
                 <div className="text-[20px] font-bold leading-[1.21] mb-2">
-                  Air Freight
+                  Ocean Freight
                 </div>
                 <div className="text-[14px] leading-[24px] text-[#9b9b9b] my-5">
-                  We can arrange and provides with the comprehensive service in
-                  the sphere of urgent, valuable, fragile or any cargoes
-                  conscientious accelerated delivery by air.
+                  We provide reliable ocean freight services,
+                  serving more than 5,000 ports across the globe 
+                  at very reasonable prices for bulk shipments anywhere in the world.
                 </div>
                 <div className="text-[#121c45] py-3 w-fit px-7 mx-auto text-[14px] font-bold cursor-pointer bg-transparent hover:bg-[#ff6900] hover:text-white transition-all delay-100">
                   ReadMore
@@ -66,22 +66,22 @@ function HeroCard2() {
                 <img
                   alt="im1"
                   className="mx-auto py-8"
-                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693204787/Airplane-Icon_bokmfe.png"
+                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1693562680/Truck-Icon_n4ziai.png"
                 />
                 <div className="text-[20px] font-bold leading-[1.21] mb-2">
-                  Air Freight
+                  Road Freight
                 </div>
                 <div className="text-[14px] leading-[24px] text-[#9b9b9b] my-5">
-                  We can arrange and provides with the comprehensive service in
-                  the sphere of urgent, valuable, fragile or any cargoes
-                  conscientious accelerated delivery by air.
+                  The fastest door to door delivery is now made possible
+                  with our fleet of trucks at your disposal with 
+                  options available for all shipment sizes.
                 </div>
                 <div className="text-[#121c45] py-3 w-fit px-7 mx-auto text-[14px] font-bold cursor-pointer bg-transparent hover:bg-[#ff6900] hover:text-white transition-all delay-100">
                   ReadMore
                 </div>
               </div>
             </div>
-            <div className="text-[14px] font-bold text-center text-[#9b9b9b]">
+            <div className="text-[25px] font-bold text-center text-[#9b9b9b]">
               Logistic & Transport Solutions Saves Your Time.
               <a
                 href="https://www.google.com/"
